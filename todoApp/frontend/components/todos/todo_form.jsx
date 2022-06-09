@@ -5,7 +5,7 @@ export default class TodoForm extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            id: uniqueId(),
+            // id: uniqueId(),
             title: "",
             body: "",
             done: false
